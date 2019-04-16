@@ -1,9 +1,46 @@
 /* base */
-
+body {
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+    box-sizing: border-box;
+}
 
 
 /* layout */
+header {
+    width: 99.7%;
+    height: 100px;
+    clear: both;
+    border: 1px solid black;
+}
 
 
+aside {
+    float: left;
+    height: 600px;
+    width: 20%;
+    border: 1px solid black;
+}
 
-/* module */
+article {
+    display: inline-block;
+    width: 39.4%;
+    height: 200px;
+    border: 1px solid black;
+}
+
+section.quad {
+    display: inline-block;
+    width: 19.4%;
+    height: 250px;
+    border: 1px solid black;
+}
+
+section.bottom {
+    /* display: inline-block; */
+    width: 79.5%;
+    height: 150px;
+    border: 1px solid black;
+    float: right;
+}
